@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kubsau</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_getData">Загрузить данные</string>
+    <string name="teacherName">Мурлин \nАлексей Георгиевич</string>
+    <string name="longText">Прочитать 27 лекций по разработке КПП Прочитать 27 лекций по разработке КПП Прочитать 27 лекций по разработке КПП</string>
+    <string name="minimum_password">Пароль должен быть не короче 6 символов!</string>
+    <string name="auth_failed">Ошибка аутентификации, проверьте свою электронную почту и пароль или зарегистрируйтесь</string>
+    <string name="action_exit">Выход</string>
+    <string name="addNewNotesText"> Добавить новую заметку</string>
+    <string name="someTextNotes">Сходить на тренировку; \nкупить шоколадку; \nпокупать кота; </string>
+
+    <string-array name="typeUserList">
+        <item>Студент</item>
+        <item>Староста</item>
+        <item>Преподаватель</item>
+    </string-array>
+</resources>

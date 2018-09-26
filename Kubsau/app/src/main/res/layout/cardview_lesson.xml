@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="314dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="27dp"
+                android:text="08:00"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/end_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/start_time"
+                android:layout_below="@id/start_time"
+                android:layout_marginTop="2dp"
+                android:text="09:30"
+                android:textSize="6pt" />
+
+            <TextView
+                android:id="@+id/subject_name"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/start_time"
+                android:text="Разработка кросплатформенных приложений"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/type_occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cabinet"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/subject_name"
+                android:background="@drawable/rounder_rect"
+                android:text="Лекция"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/cabinet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/subject_name"
+                android:text="303эк"
+                android:textSize="6pt" />
+
+            <TextView
+                android:id="@+id/name_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/subject_name"
+                android:layout_alignTop="@id/dzImg"
+                android:layout_below="@id/subject_name"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="5dp"
+                android:text="Мурлин А.Г."
+                android:textSize="6pt" />
+
+            <ImageView
+                android:id="@+id/dzImg"
+                android:layout_width="17dp"
+                android:layout_height="25dp"
+                android:layout_alignLeft="@id/cabinet"
+                android:layout_alignStart="@id/cabinet"
+                android:layout_below="@id/type_occupation"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_dz" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

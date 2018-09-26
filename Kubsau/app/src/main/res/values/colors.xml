@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796b</color>
+    <color name="colorPrimarybDark2">#007063</color>
+    <color name="colorPrimaryDark">#014e45</color>
+    <color name="colorAccent">#60b1a8</color>
+    <color name="lighGray">#ededed</color>
+    <color name="TextLesActColor">#3b8f97</color>
+    <color name="BackLesActColor">#39898c8a</color>
+    <color name="colorGray">#3b898c8a</color>
+    <color name="darckGray">#3b545654</color>
+    <color name="white">#ffffff</color>
+    <color name="test">#4b0f0f</color>
+</resources>
